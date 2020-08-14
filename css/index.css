@@ -9,8 +9,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
 }
 
-
-
 /*GENERAL STYLES*/
 
 html {
@@ -72,10 +70,10 @@ header {
 }
 
 nav {
-    width: 30%;
+    width: 60%;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 nav a {
@@ -83,7 +81,8 @@ nav a {
 }
 
 nav span {
-    border-left: 3px solid #626262;
+    border-left: .3rem solid #626262;
+    ;
 }
 
 /*Title Section Styles*/
@@ -104,7 +103,7 @@ nav span {
     justify-content: center;
     align-items: center;
     height: 60vh;
-    margin: 5% 0;
+    margin: 2% 0;
 }
 
 .title-container div:hover {
@@ -156,9 +155,18 @@ button:hover {
         font-size: 2rem;
     }
     nav {
-        justify-content: evenly;
-        width: 40%;
+        justify-content: space-between;
+        width: 80%;
     }
+    nav span {
+        height: 100%;
+        align-items: center;
+        justify-content: space between;
+        align-self : center;
+        
+    }   
+
+
     .title-container {
                margin: 0;
     }

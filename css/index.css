@@ -168,7 +168,7 @@ button:hover {
     }
     .title-container div {
         background-size: cover;
-        
+        width: 100%
     }
     .artist img {
         width: 60%;

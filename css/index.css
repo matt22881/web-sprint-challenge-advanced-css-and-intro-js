@@ -9,9 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
 }
 
-* {
-    border: 1px solid red;
-}
+
 
 /*GENERAL STYLES*/
 
@@ -153,9 +151,7 @@ button:hover {
 }
 
 @media (max-width: 500px) {
-    * {
-        border: solid 1px green;
-    }
+    
     a {
         font-size: 2rem;
     }
